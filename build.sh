@@ -5,6 +5,8 @@ export CGO_ENABLED=0
 export GOARCH=amd64 
 export GOTRACEBACK=system 
 
+echo NEWLINE
+
 go get gopkg.in/yaml.v2
 go env -w GO111MODULE=auto
 
