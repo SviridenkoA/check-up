@@ -1,5 +1,6 @@
 ## docker build -t sbeliakou/ansible-lab-check:2.9.11-05 .
 FROM golang
+FROM golang
 
 RUN  go get gopkg.in/yaml.v2
 
